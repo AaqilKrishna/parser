@@ -6,3 +6,7 @@ evaluate relational expression/a.out
 evaluate relational expression/lex.yy.c
 evaluate relational expression/y.tab.c
 evaluate relational expression/y.tab.h
+evaluate logical expression/a.out
+evaluate logical expression/lex.yy.c
+evaluate logical expression/y.tab.c
+evaluate logical expression/y.tab.h

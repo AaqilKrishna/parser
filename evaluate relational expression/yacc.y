@@ -33,6 +33,6 @@ void yyerror (char const *s) {
 int main() {
     printf("Enter relational expression: ");
     yyparse();
-    printf("Valid Expression\n");
+    printf("Valid relational expression\n");
     return 0;
 }

@@ -38,6 +38,6 @@ void yyerror (char const *s) {
 int main() {
     printf("Enter arithmetic expression: ");
     yyparse();
-    printf("Valid Expression\n");
+    printf("Valid arithmetic expression\n");
     return 0;
 }
