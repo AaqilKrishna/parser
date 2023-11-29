@@ -1,11 +1,15 @@
 %{
+#include <stdio.h>
 #include "y.tab.h"
 extern int yylval;
+int val;
 %}
 
 %%
-[0-9]+ {
-    yylval = atoi(yytext);
+[abck] {
+    printf("Enter value of %c: ", yytext[0]);
+    scanf("%d", &val);
+    yylval = val;
     return num;
 }
 
