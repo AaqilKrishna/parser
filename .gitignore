@@ -14,3 +14,11 @@ convert binary to decimal/a.out
 convert binary to decimal/lex.yy.c
 convert binary to decimal/y.tab.c
 convert binary to decimal/y.tab.h
+convert binary to decimal with grammar/y.tab.h
+convert binary to decimal without grammar/y.tab.h
+convert binary to decimal with grammar/y.tab.c
+convert binary to decimal with grammar/lex.yy.c
+convert binary to decimal with grammar/a.out
+convert binary to decimal without grammar/a.out
+convert binary to decimal without grammar/lex.yy.c
+convert binary to decimal without grammar/y.tab.c

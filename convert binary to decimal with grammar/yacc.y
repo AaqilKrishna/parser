@@ -8,17 +8,17 @@ void yyerror(char const *);
 %token num
 
 %%
-S: A { printf("Decimal Number: %d\n", $$); } 
+S: A { printf("Decimal Number: %d\n", $$); }
 
-A: A num { $$=$1*2+$2; } 
-| num { $$=$1; } 
+A: A num { $$ = $1*2 + $2; }
+| num { $$ = $1; }
 ;
 %% 
 
 void yyerror(char const *s) { 
-	printf("Invalid");
+	printf("Invalid Input\n");
 	exit(0);
-} 
+}
 
 int main() { 
 	printf("Binary Number: ");
