@@ -4,7 +4,7 @@ extern int yylval;
 %}
 
 %%
-[0-1]+ { 
+[0-1] { 
     yylval = atoi(yytext); 
     return num; 
 }
