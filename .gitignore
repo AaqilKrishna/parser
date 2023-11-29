@@ -2,3 +2,7 @@ evaluate arithmetic expression/a.out
 evaluate arithmetic expression/lex.yy.c
 evaluate arithmetic expression/y.tab.c
 evaluate arithmetic expression/y.tab.h
+evaluate relational expression/a.out
+evaluate relational expression/lex.yy.c
+evaluate relational expression/y.tab.c
+evaluate relational expression/y.tab.h

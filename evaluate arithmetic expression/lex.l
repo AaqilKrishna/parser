@@ -9,6 +9,14 @@ extern int yylval;
     return num;
 }
 
+"++" {
+    return inc;
+}
+
+"--" {
+    return dec;
+}
+
 . {
     return yytext[0];
 }
