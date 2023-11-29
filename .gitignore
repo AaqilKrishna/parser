@@ -10,3 +10,7 @@ evaluate logical expression/a.out
 evaluate logical expression/lex.yy.c
 evaluate logical expression/y.tab.c
 evaluate logical expression/y.tab.h
+convert binary to decimal/a.out
+convert binary to decimal/lex.yy.c
+convert binary to decimal/y.tab.c
+convert binary to decimal/y.tab.h
