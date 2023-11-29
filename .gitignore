@@ -1,0 +1,4 @@
+evaluate arithmetic expression/a.out
+evaluate arithmetic expression/lex.yy.c
+evaluate arithmetic expression/y.tab.c
+evaluate arithmetic expression/y.tab.h
